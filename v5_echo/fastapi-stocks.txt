@@ -1,0 +1,47 @@
+I want to create instructions for building a program.
+
+- Your job is to create a fastapi server. It will fetch an external API using requests, process the request and return the result in the response.
+- The api key is: V7MX5QSVQ0LT7LSJ, store it in .env, load it in program using python-dotenv dependency
+- use this API https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=V7MX5QSVQ0LT7LSJ
+- this returns:
+{
+    "Meta Data": {
+        "1. Information": "Intraday (5min) open, high, low, close prices and volume",
+        "2. Symbol": "IBM",
+        "3. Last Refreshed": "2024-05-17 19:55:00",
+        "4. Interval": "5min",
+        "5. Output Size": "Compact",
+        "6. Time Zone": "US/Eastern"
+    },
+    "Time Series (5min)": {
+        "2024-05-17 19:55:00": {
+            "1. open": "169.0190",
+            "2. high": "169.0190",
+            "3. low": "169.0190",
+            "4. close": "169.0190",
+            "5. volume": "1"
+        },
+        "2024-05-17 19:50:00": {
+            "1. open": "168.9800",
+            "2. high": "168.9800",
+            "3. low": "168.9700",
+            "4. close": "168.9700",
+            "5. volume": "156"
+        },
+        "2024-05-17 19:45:00": {
+            "1. open": "169.0100",
+            "2. high": "169.0300",
+            "3. low": "168.9700",
+            "4. close": "168.9700",
+            "5. volume": "57"
+        },
+        ...
+- Return this just the time series in the response.
+
+- Dont use subfolders as filenames.
+- It can use dependencies, but dont include dependencies installation in the tasks, just add them to requirements.txt, dont include version
+- Your job is to create set of tasks to distribute the work in smaller pieces to separate independent coder tasks.
+- Dont include any tasks about setup environment and file creation just write filename which should be used, that is handled differently, just focus on the code and logic.
+- You can import the files that are in the project from other files.
+- It should be runnable from main.py, make the main.py in the last task.
+

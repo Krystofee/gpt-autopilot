@@ -1,0 +1,13 @@
+I want to create instructions for building a program. The program will be a Snake game. It should use pygame as a library.
+
+- The starting length should be 3. If the food is eaten, add 1 to length.
+- The snake should be controlled using WASD or arrows.
+- There should be score displayed at the top left of the screen.
+- If the game ends, print score to the terminal.
+
+- It can use dependencies, but dont include dependencies installation in the tasks, just add them to requirements.txt
+- Your job is to create set of tasks to distribute the work in smaller pieces to separate independent coder tasks.
+- Dont include any tasks about setup environment and file creation just write filename which should be used, that is handled differently, just focus on the code and logic.
+- You can import the files that are in the project from other files.
+- It should be runnable from main.py, make the main.py in the last task.
+

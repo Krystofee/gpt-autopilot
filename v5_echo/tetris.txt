@@ -1,0 +1,16 @@
+I want to create instructions for building a program. This program will be a tetris. It should use pygame.
+
+- It should have standard tetris blocks and game board size.
+- It should compute score properly and should erase the row and add score.
+- If it reaches top, it should stop and print score to the terminal.
+- Show score at the top left.
+- Tiles should be colored.
+- Ot should be controlled using wasd, where a moves left, d moves right and ws rotates the piece.
+- It should run at slow speed, 2 frames per second.
+
+- It can use dependencies, but dont include dependencies installation in the tasks, just add them to requirements.txt, dont include version
+- Your job is to create set of tasks to distribute the work in smaller pieces to separate independent coder tasks.
+- Dont include any tasks about setup environment and file creation just write filename which should be used, that is handled differently, just focus on the code and logic.
+- You can import the files that are in the project from other files.
+- It should be runnable from main.py, make the main.py in the last task.
+
